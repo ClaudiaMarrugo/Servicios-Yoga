@@ -43,12 +43,15 @@ html{
     background: radial-gradient(50% 50% at 50% 50%, #EECEC3 0%, #FFF3ED 100%);
 }
 
+ul{
+    list-style-type: none;
+}
+
 .container {
     max-width: 1240px;
     justify-content: center;
     align-items: center;
-    /* padding: 0%; */
-    /* margin: 0%; */
+    margin: 0 auto;
 }
 
 .slider{
@@ -70,6 +73,20 @@ html{
     gap: var(--spacing-28);
 }
 
+.card-item__staff{
+    height: 360px;
+    width: 320PX;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: solid #EECEC3;
+}
+
+.card-item__cover{
+    display: flex;
+    justify-content: center;
+}
 
 .card-item__content{
     display: flex;
